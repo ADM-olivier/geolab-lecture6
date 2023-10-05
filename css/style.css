@@ -1,0 +1,31 @@
+.container{
+	margin: 0 auto;
+	height: 1500px;
+}
+.bg{
+	width: 500px;
+	height: 500px;
+	background-color: darkred;
+	margin: 0 auto;
+	position: relative;
+}
+.sml{
+	width:150px ;
+	height: 150px;
+	position: absolute;
+	background-color: blue;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+    transition-timing-function: easy-out;
+    border-radius: 50%;
+  
+}
+.sml:hover{
+	background-color: green;
+	transform:translate(-50%, -50%) scale(2 , 2) skew(10deg);  }
+
+.doli{
+	font: 32px;
+	text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18, 40px 40px 20px #CE5937
+}
